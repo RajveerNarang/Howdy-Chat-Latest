@@ -1,5 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import ProfileSection from "./components/ProfileSection/ProfileSection";
+import SearchPeople from "./components/SearchPeople/SearchPeople";
+import ChatCardsListing from "./components/ChatCardsListing/ChatCardsListing";
 import "./App.css";
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
       <div className="left-side">
         <ProfileSection />
         <SearchPeople />
-        <ChartCardsListing />
+        <ChatCardsListing />
       </div>
     </div>
   );
