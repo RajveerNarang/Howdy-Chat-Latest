@@ -7,7 +7,7 @@ const SearchPeople = () => {
   return (
     <div className="search">
       {/* <h1>SearchPeople</h1> */}
-      <FontAwesomeIcon icon={faSearch} />
+      <FontAwesomeIcon className="icon-block" icon={faSearch} />
       <input placeholder="search" />
     </div>
   );

@@ -5,6 +5,12 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  .icon-block {
+    position: absolute;
+    left: 30px;
+    color: #919191;
+    font-size: 14px;
+  }
   input {
     width: calc(100% - 80px);
     height: 30px;
