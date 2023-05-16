@@ -11,6 +11,7 @@ const ProfileSection = () => {
           alt="profile-icon"
         />
       </div>
+      Rajveer Narang
       <div className="action-items">Logout</div>
     </div>
   );
